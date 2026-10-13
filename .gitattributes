@@ -1,0 +1,16 @@
+# Do not edit manually
+# See https://github.com/github/linguist
+# Project-specific overrides 
+**/*.py linguist-detectable
+vendor/* linguist-vendored
+
+public/**/*.html linguist-vendored
+*.png binary
+*.map linguist-generated
+*.py linguist-detectable 
+
+*.html linguist-vendored
+
+*.gif binary
+*.jpg binary
+go.sum linguist-generated
